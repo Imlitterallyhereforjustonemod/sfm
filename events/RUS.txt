@@ -1,0 +1,108 @@
+namespace = rus
+
+rus.1 = {
+	type = country_event
+	placement = root
+	title = rus.1.t
+	desc = rus.1.d
+	
+	duration = 4
+
+	event_image = {
+		video = "gfx/event_pictures/unspecific_vandalized_storefront.bk2"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+
+	trigger = {
+		#event
+	}
+	
+	immediate = {
+		add_modifier = {
+			name = conqueror_of_caucasia
+			months = long_modifier_time
+		}
+	}
+
+	option = {
+		name = rus.1.a
+		
+		ig:ig_armed_forces = {
+			add_modifier = {
+				name = military_crackdown
+				months = normal_modifier_time
+			}
+		}
+		
+		s:STATE_DAGESTAN = {
+			add_modifier = {
+				name = harsh_crackdown
+				months = long_modifier_time
+			}
+		}
+		
+		s:STATE_KUBAN = {
+			add_modifier = {
+				name = harsh_crackdown
+				months = long_modifier_time
+			}
+		}
+		
+		ai_chance = {
+			base = 80
+		}
+	}
+	
+	option = {
+		name = rus.1.b
+		
+		ig:ig_devout = {
+			add_modifier = {
+				name = approved_mission
+				months = normal_modifier_time
+			}
+		}
+		
+		s:STATE_DAGESTAN = {
+			add_modifier = {
+				name = forced_conversions
+				months = long_modifier_time
+			}
+		}
+		
+		s:STATE_KUBAN = {
+			add_modifier = {
+				name = forced_conversions
+				months = long_modifier_time
+			}
+		}
+		
+		ai_chance = {
+			base = 15
+		}
+	}
+	
+	option = {
+		name = rus.1.c
+		default_option = yes
+		
+		s:STATE_DAGESTAN = {
+			add_modifier = {
+				name = unchecked_unrest
+				months = long_modifier_time
+			}
+		}
+		
+		s:STATE_KUBAN = {
+			add_modifier = {
+				name = unchecked_unrest
+				months = long_modifier_time
+			}
+		}
+		
+		ai_chance = {
+			base = 5
+		}
+	}
+}

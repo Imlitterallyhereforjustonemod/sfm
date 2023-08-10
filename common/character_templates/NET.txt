@@ -1,0 +1,218 @@
+#Generals and Admirals
+net_admiral_rijk = {
+	first_name = Julius
+	last_name = Rijk
+	historical = yes
+	culture = cu:dutch
+	female = no
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1787.1.1
+	traits = {
+		experienced_naval_commander
+		innovative
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:NET
+			this = c:NET
+		}
+		role = admiral
+		earliest_usage_date = 1836.1.1
+		latest_usage_date = 1850.1.1	
+		chance = 50
+	}
+}
+net_general_cochius = {
+	first_name = Frans_David
+	last_name = Cochius
+	historical = yes
+	culture = cu:dutch
+	female = no
+	ideology = ideology_jingoist_leader
+	commander_rank = default
+	interest_group = ig_devout
+	birth_date = 1787.12.3
+	traits = {
+		forest_commander
+		meticulous
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:NET
+			this = c:NET
+		}
+		role = general
+		earliest_usage_date = 1836.1.1
+		latest_usage_date = 1865.1.1	
+		chance = 50
+	}
+}
+net_general_de_kock = {
+	first_name = Hendrik_Merkus
+	last_name = de_Kock
+	historical = yes
+	culture = cu:dutch
+	female = no
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1779.5.25
+	traits = {
+		forest_commander
+		ambitious
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:NET
+			this = c:NET
+		}
+		role = general
+		earliest_usage_date = 1836.1.1
+		latest_usage_date = 1865.1.1	
+		chance = 50
+	}
+}
+net_general_michiels = {
+	first_name = Andreas_Victor
+	last_name = Michiels
+	historical = yes
+	culture = cu:dutch
+	female = no
+	ideology = ideology_jingoist_leader
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1797.5.30
+	traits = {
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:NET
+			this = c:NET
+		}
+		role = general
+		earliest_usage_date = 1836.1.1
+		latest_usage_date = 1865.1.1	
+		chance = 50
+	}
+}
+net_general_list = {
+	first_name = Frederik_Carel
+	last_name = List
+	historical = yes
+	culture = cu:dutch
+	female = no
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1784.2.5
+	traits = {
+		basic_artillery_commander
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:NET
+			this = c:NET
+		}
+		role = general
+		earliest_usage_date = 1836.1.1
+		latest_usage_date = 1850.1.1	
+		chance = 50
+	}
+}
+
+net_general_meurs = {
+	first_name = Cornelis
+	last_name = van_Meurs
+	historical = yes
+	culture = cu:dutch
+	religion = rel:atheist
+	female = no
+	ideology = ideology_positivist
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1799.11.13
+	traits = {
+		expert_artillery_commander
+		direct
+		reckless
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:NET
+			this = c:NET
+		}
+		role = general
+		earliest_usage_date = 1850.1.1
+		latest_usage_date = 1885.1.1	
+		chance = 50
+	}
+}
+
+net_general_chasse = { # General
+	first_name = David_Hendrik
+	last_name = Chasse
+	historical = yes
+	culture = cu:dutch
+	interest_group = ig_armed_forces
+	ideology = ideology_radical
+	birth_date = 1765.3.18
+	traits = {
+		wrathful
+		wounded # Right upper arm
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:NET
+			this = c:NET
+		}
+		role = general
+		earliest_usage_date = 1836.1.1
+		latest_usage_date = 1840.1.1	
+		chance = 50
+	}
+}
+
+create_character = {
+	first_name = Karel_Bernhard
+	last_name = van_Saksen_Weimar_Eisenach
+	interest_group = ig_landowners
+	ideology = ideology_moderate
+	birth_date = 1792.5.30
+	traits = {
+		innovative
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:NET
+			this = c:NET
+		}
+		role = general
+		earliest_usage_date = 1836.1.1
+		latest_usage_date = 1855.1.1	
+		chance = 50
+	}
+}
+		
+create_character = {
+	first_name = Hendrik
+	last_name = Duycker
+	historical = yes
+	interest_group = ig_armed_forces
+	ideology = ideology_moderate
+	birth_date = 1792.9.6
+	traits = {
+		reserved
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:NET
+			this = c:NET
+		}
+		role = general
+		earliest_usage_date = 1836.1.1
+		latest_usage_date = 1870.1.1	
+		chance = 50
+	}
+}

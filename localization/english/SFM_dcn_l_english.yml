@@ -1,0 +1,86 @@
+﻿l_english:
+
+#DEFAULTS
+ dcn_default_kingdom:0 "Kingdom of [COUNTRY.GetDefinition.GetName]"
+ dcn_default_shogunate:0 "Shogunate of [COUNTRY.GetDefinition.GetName]"
+ dcn_default_state:0 "State of [COUNTRY.GetDefinition.GetName]"
+ dcn_default_tsardom:0 "Tsardom of [COUNTRY.GetDefinition.GetName]"
+ dcn_default_sultanate:0 "Sultanate of [COUNTRY.GetDefinition.GetName]"
+ dcn_default_hakimate:0 "Hakimate of [COUNTRY.GetDefinition.GetName]"
+ dcn_default_sheikhdom:0 "Sheikhdom of [COUNTRY.GetDefinition.GetName]"
+ dcn_default_sunanate:0 "[COUNTRY.GetDefinition.GetAdjective] Sunanate"
+ dcn_default_caliphate:0 "Caliphate of [COUNTRY.GetDefinition.GetName]"
+ dcn_default_khedivate:0 "Khedivate of [COUNTRY.GetDefinition.GetName]"
+ dcn_default_vilayet:0 "[COUNTRY.GetDefinition.GetName] Vilayet"
+ dcn_default_shahdom:0 "Shahdom of [COUNTRY.GetDefinition.GetName]"
+ dcn_default_principality:0 "Principality of [COUNTRY.GetDefinition.GetName]"
+ dcn_default_beylik:0 "Beylik of [COUNTRY.GetDefinition.GetName]"
+ dcn_default_sharifate:0 "Sharifate of [COUNTRY.GetDefinition.GetName]"
+ dcn_default_empire:0 "[COUNTRY.GetDefinition.GetAdjective] Empire"
+ dcn_default_khanate:0 "Khanate of [COUNTRY.GetDefinition.GetName]"
+ dcn_default_zhuz:0 "[COUNTRY.GetDefinition.GetAdjective] Zhuz"
+ dcn_default_emirate:0 "Emirate of [COUNTRY.GetDefinition.GetName]"
+ dcn_default_county:0 "County of [COUNTRY.GetDefinition.GetName]"
+ dcn_default_duchy:0 "Duchy of [COUNTRY.GetDefinition.GetName]"
+ dcn_default_grand_duchy:0 "Grand Duchy of [COUNTRY.GetDefinition.GetName]"
+ dcn_default_grand_principality:0 "Grand Principality of [COUNTRY.GetDefinition.GetName]"
+ dcn_default_republic:0 "Republic of [COUNTRY.GetDefinition.GetName]"
+ dcn_default_free_city:0 "Free City of [COUNTRY.GetDefinition.GetName]"
+ dcn_default_company:0 "[COUNTRY.GetDefinition.GetName] Company"
+ dcn_default_colony:0 "Colony of [COUNTRY.GetDefinition.GetName]"
+ dcn_default_prince_bishopric:0 "Prince-Bishopric of [COUNTRY.GetDefinition.GetName]"
+ dcn_default_imamate:0 "Imamate of [COUNTRY.GetDefinition.GetName]"
+ dcn_default_patriarchate:0 "Patriarchate of [COUNTRY.GetDefinition.GetName]"
+ dcn_default_ssr:0 "[COUNTRY.GetDefinition.GetAdjective] Socialist Soviet Republic"
+ dcn_default_peoples_republic:0 "Peoples' Republic of [COUNTRY.GetDefinition.GetName]"
+ dcn_default_papacy:0 "Papal States"
+ dcn_default_confederation:0 "[COUNTRY.GetDefinition.GetAdjective] Confederation"
+
+#North America
+ 
+ #ONT
+ dyn_c_ont_upper_canada:0 "Province of Upper Canada"
+ dyn_c_ont_upper_canada_adj:0 "Upper Canadian"
+ 
+ #QUE
+ dyn_c_que_lower_canada:0 "Province of Lower Canada"
+ dyn_c_que_lower_canada_adj:0 "Lower Canadian"
+ 
+ #SEQ
+ dyn_c_seq_indian_territory:0 "Indian Territory"
+ dyn_c_seq_indian_territory_adj:0 "Indian"
+ 
+ #USA
+ dyn_c_usa_united_states:0 "United States of America"
+ 
+#Europe
+
+ #AUS
+ dyn_c_aus_austria-hungary:0 "Austro-Hungarian Empire"
+ dyn_c_aus_austria-hungary:0 "Austro-Hungarian"
+
+ #GBR
+ dyn_c_gbr_united_kingdom:0 "United Kingdom of Great Britain and Ireland"
+ 
+ #PRC
+ dyn_c_prc_paris_commune:0 "Paris Commune"
+ dyn_c_prc_paris_commune_adj:0 "Communard"
+ 
+#Asia
+
+ #CHI
+ dyn_c_chi_qing:0 "Great Qing"
+ dyn_c_chi_qing_adj:0 "Qing"
+ 
+ #KOR
+ dyn_c_kor_joseon:0 "Great Joseon"
+ dyn_c_kor_joseon_adj:0 "Joseon"
+ 
+ #PAN 
+ dyn_c_pan_sikh:0 "Sikh Empire"
+ dyn_c_pan_sikh_adj:0 "Sikh"
+ 
+ #TUR
+ dyn_c_tur_ottoman:0 "Ottoman Empire"
+ dyn_c_tur_ottoman_adj:0 "Ottoman"
+ 

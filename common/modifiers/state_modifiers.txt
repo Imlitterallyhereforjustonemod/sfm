@@ -1,0 +1,19 @@
+harsh_crackdown = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	state_mortality_mult = 0.025
+	state_turmoil_effects_mult = -0.5
+}
+
+forced_conversions = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	state_conversion_mult = 0.75
+	state_assimilation_mult = 0.1
+	state_turmoil_effects_mult = -0.1
+	state_radicals_from_discrimination_mult = 0.75
+}
+
+unchecked_unrest = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds
+	state_turmoil_effects_mult = 2.0
+	building_throughput_mult = -0.75
+}

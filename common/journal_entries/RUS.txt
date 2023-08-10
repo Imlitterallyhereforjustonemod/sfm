@@ -1,0 +1,23 @@
+je_consolidate_caucasia_rus = {
+    icon = "gfx/interface/icons/event_icons/event_military.dds"
+    is_shown_when_inactive = {
+        exists = c:RUS
+        THIS = c:RUS
+        is_subject = no
+    }
+    
+	possible = {
+    }
+	
+    complete = {
+        owns_entire_state_region = STATE_KUBAN
+        owns_entire_state_region = STATE_DAGESTAN
+    }
+	
+    on_complete = {
+        trigger_event = { id = rus.1 }
+    }
+
+    weight = 1000
+    should_be_pinned_by_default = yes
+}

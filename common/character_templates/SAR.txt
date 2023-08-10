@@ -1,0 +1,212 @@
+# Sardinia-Piedmont - SAR
+sar_admiral_pellion_di_persano = {
+	first_name = Carlo
+	last_name = Pellion_di_Persano
+	historical = yes
+	culture = cu:north_italian
+	female = no
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1806.3.11
+	traits = {
+		basic_naval_commander
+		basic_diplomat
+		reckless
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:SAR 
+					this = c:SAR 
+				}
+				AND = { 
+					NOT = { exists = c:SAR } 
+					exists = c:ITA 
+					this = c:ITA 
+					c:ITA = { owns_entire_state_region = STATE_PIEDMONT } 
+				}
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1849.1.1
+		latest_usage_date = 1870.1.1	
+		chance = 50
+	}
+}
+sar_general_de_sonnaz = {
+	first_name = Ettore
+	last_name = de_Sonnaz
+	historical = yes
+	culture = cu:north_italian
+	female = no
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1787.1.3
+	traits = {
+		reckless
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:SAR 
+					this = c:SAR 
+				}
+				AND = { 
+					NOT = { exists = c:SAR } 
+					exists = c:ITA 
+					this = c:ITA 
+					c:ITA = { owns_entire_state_region = STATE_PIEDMONT } 
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1836.1.1
+		latest_usage_date = 1850.1.1	
+		chance = 50
+	}
+}
+sar_general_la_marmora = {
+	first_name = Alfonso
+	last_name = Ferrero_la_Marmora
+	historical = yes
+	culture = cu:north_italian
+	female = no
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1804.11.18
+	traits = {
+		basic_offensive_planner
+		basic_diplomat
+		reckless
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:SAR 
+					this = c:SAR 
+				}
+				AND = { 
+					NOT = { exists = c:SAR } 
+					exists = c:ITA 
+					this = c:ITA 
+					c:ITA = { owns_entire_state_region = STATE_PIEDMONT } 
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1848.1.1
+		latest_usage_date = 1875.1.1	
+		chance = 50
+	}
+}
+sar_general_bava = {
+	first_name = Eusebio_2
+	last_name = Bava
+	historical = yes
+	culture = cu:north_italian
+	female = no
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1790.8.9
+	traits = {
+		surveyor
+		cautious
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:SAR 
+					this = c:SAR 
+				}
+				AND = { 
+					NOT = { exists = c:SAR } 
+					exists = c:ITA 
+					this = c:ITA 
+					c:ITA = { owns_entire_state_region = STATE_PIEDMONT } 
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1836.1.1
+		latest_usage_date = 1850.1.1	
+		chance = 50
+	}
+}
+sar_general_cadorna = {
+	first_name = Luigi
+	last_name = Cadorna
+	historical = yes
+	culture = cu:north_italian
+	female = no
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1850.9.4
+	traits = {
+		reckless
+		arrogant
+		imperious
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:SAR 
+					this = c:SAR 
+				}
+				AND = { 
+					NOT = { exists = c:SAR } 
+					exists = c:ITA 
+					this = c:ITA 
+					c:ITA = { owns_entire_state_region = STATE_PIEDMONT } 
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1890.1.1
+		latest_usage_date = 1920.1.1	
+		chance = 50
+	}
+}
+sar_general_chiodo = {
+	first_name = Agostino
+	last_name = Chiodo
+	historical = yes
+	culture = cu:north_italian
+	female = no
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1791.4.16
+	traits = {
+		trench_rat
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+				AND = { 
+					exists = c:SAR 
+					this = c:SAR 
+				}
+				AND = { 
+					NOT = { exists = c:SAR } 
+					exists = c:ITA 
+					this = c:ITA 
+					c:ITA = { owns_entire_state_region = STATE_PIEDMONT } 
+				}
+			}
+		}
+		role = general
+		earliest_usage_date = 1836.1.1
+		latest_usage_date = 1850.1.1	
+		chance = 50
+	}
+}

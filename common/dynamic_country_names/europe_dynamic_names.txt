@@ -1,0 +1,45 @@
+AUS = { # Austria
+	dynamic_country_name = {
+		name = dyn_c_aus_austria-hungary
+		adjective = dyn_c_aus_austria-hungary_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = { 
+				country_has_primary_culture = cu:hungarian 
+			}
+		}
+	}
+}
+
+GBR = { #Britain
+	dynamic_country_name = {
+		name = dyn_c_gbr_united_kingdom
+
+		is_main_tag_only = yes
+		priority = 1
+		
+		trigger = {
+			scope:actor = {
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+}
+
+PRC = { # Paris
+	dynamic_country_name = {
+		name = dyn_c_prc_paris_commune
+		adjective = dyn_c_prc_paris_commune_adj
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				has_law = law_type:law_council_republic
+			}
+		}
+	}
+}

@@ -1,0 +1,78 @@
+﻿CHARACTERS = {
+	c:AFG = {
+		create_character = {
+			# Dost Mohammad Khan
+			first_name = "Dost"
+			last_name = "Barakzai"
+			historical = yes
+			ruler = yes
+			age = 56
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			traits = {
+				ambitious
+			}
+		}	
+
+		create_character = {
+			# Wazir Akbar Khan
+			first_name = "Akbar"
+			last_name = "Barakzai"
+			historical = yes
+			heir = yes
+			is_general = yes
+			age = 20
+			interest_group = ig_armed_forces
+			ideology = ideology_traditionalist
+			traits = {
+				reserved
+			}
+		}
+		
+		create_character = {
+			#Mohammad Afzar Khan
+			first_name = "Mohammad"
+			last_name = "Barakzai"
+			historical = yes
+			ig_leader = yes
+			is_general = yes
+			age = 21
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			traits = {
+				ambitious
+				reckless
+			}
+		}
+		
+		create_character = {
+			#Mir Masjidi Khan
+			first_name = "Mir"
+			last_name = "Masjidi"
+			historical = yes
+			ig_leader = yes
+			is_general = yes
+			age = 38 #birthdate unknown
+			interest_group = ig_devout
+			ideology = ideology_jingoist_leader
+			traits = {
+				direct
+				brave
+			}
+		}
+		
+		create_character = {
+			is_general = yes
+			ig_leader = yes
+			first_name = Dost
+			last_name = Mohammed
+			historical = yes
+			interest_group = ig_armed_forces
+			ideology = ideology_jingoist_leader
+			age = 43
+			traits = {
+				reserved
+			}
+		}
+	}
+}

@@ -1,0 +1,38 @@
+#on_new_ruler = {
+#    on_actions = {
+#        willem_iii_heir
+#    }
+#}
+#
+#willem_iii_heir = { 
+#    effect = {
+#		if = {
+#			limit = {
+#				has_variable = is_willem_ii
+#				owner = {
+#					c:NET ?= this
+#				}
+#			}
+#			
+#			owner = {
+#				create_character = {
+#					first_name = "Willem"
+#					last_name = "regalno_iii"
+#					historical = yes
+#					heir = yes
+#					birth_date = 1817.2.19
+#					interest_group = ig_landowners
+#					ideology = ideology_authoritarian
+#					traits = {
+#						arrogant
+#						reckless
+#						direct
+#					}
+#					on_created = {
+#						set_variable = is_willem_iii
+#					}
+#				}
+#			}
+#		}
+#   }
+#}

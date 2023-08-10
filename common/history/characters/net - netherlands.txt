@@ -1,0 +1,180 @@
+﻿CHARACTERS = {
+	c:NET = {
+		create_character = {
+			# King William I of the Netherlands
+			first_name = "Willem"
+			last_name = "van_Oranje-Nassau"
+			historical = yes
+			ruler = yes
+			birth_date = 1772.8.24
+			dna = dna_king_william_01
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			traits = {
+				romantic
+			}
+			on_created = {
+				set_variable = is_married				
+			}
+		}	
+
+		create_character = {
+			first_name = "Willem"
+			last_name = "van_Oranje-Nassau"
+			historical = yes
+			heir = yes
+			birth_date = 1792.12.6
+			interest_group = ig_intelligentsia
+			ideology = ideology_reformer
+			traits = {
+				persistent
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+		
+		create_character = { 
+			ig_leader = yes
+			first_name = Johan
+			last_name = Thorbecke
+			historical = yes
+			birth_date = 1798.1.14
+			interest_group = ig_intelligentsia
+			ideology = ideology_radical
+			traits = {
+				direct
+				experienced_political_operator
+				firebrand
+			}
+		}
+		
+		create_character = { 
+			ig_leader = yes
+			first_name = Justinus
+			last_name = van_der_Brugghen
+			historical = yes
+			birth_date = 1804.8.6
+			interest_group = ig_petty_bourgeoisie
+			ideology = ideology_traditionalist
+			traits = {
+				meticulous
+				basic_political_operator
+			}
+		}
+		
+		create_character = { 
+			ig_leader = yes
+			first_name = Gerrit
+			last_name = Schimmelpenninck
+			historical = yes
+			birth_date = 1794.2.25
+			interest_group = ig_industrialists
+			ideology = ideology_reformer
+			traits = {
+				innovative
+				charismatic
+				tactful
+			}
+		}
+		
+		create_character = { 
+			ig_leader = yes
+			first_name = Floris
+			last_name = van_Hall
+			historical = yes
+			birth_date = 1791.5.15
+			interest_group = ig_landowners
+			ideology = ideology_reformer
+			traits = {
+				expert_political_operator
+				reserved
+			}
+		}
+		
+		create_character = { 
+			ig_leader = yes
+			first_name = Jan
+			last_name = Rochussen
+			historical = yes
+			birth_date = 1797.10.23
+			interest_group = ig_rural_folk
+			ideology = ideology_jingoist_leader
+			traits = {
+				experienced_political_operator
+				bigoted
+				direct
+			}
+		}
+
+		create_character = { # General
+			is_general = yes
+			ig_leader = yes
+			first_name = Charles
+			last_name = Nepveu
+			historical = yes
+			interest_group = ig_armed_forces
+			ideology = ideology_traditionalist
+			birth_date = 1791.10.5
+			traits = {
+				wrathful
+				reckless
+			}
+		}
+		
+		create_character = { # Admiral
+			is_admiral = yes
+			 first_name = Engelbertus
+			 last_name = Lucas
+			 historical = yes
+			 interest_group = ig_armed_forces
+			 ideology = ideology_moderate
+			 birth_date = 1785.5.30
+			 traits = {
+			 	experienced_naval_commander
+			 	wrathful
+			}
+		 }
+		
+		create_character = {
+			is_general = yes
+			first_name = Karel_Bernhard
+			last_name = van_Saksen_Weimar_Eisenach
+			interest_group = ig_landowners
+			ideology = ideology_moderate
+			birth_date = 1792.5.30
+			traits = {
+				innovative
+			}
+		}
+		
+		create_character = {
+			is_general = yes
+			first_name = Hendrik
+			last_name = Duycker
+			historical = yes
+			interest_group = ig_armed_forces
+			ideology = ideology_moderate
+			birth_date = 1792.9.6
+			traits = {
+			}
+		}
+		
+		#Agitators
+		create_character = {
+			first_name = Hendrik
+			last_name = de_Cock
+			historical = yes
+			birth_date = 1801.4.12
+			is_agitator = yes
+			female = no
+			interest_group = ig_devout
+			ideology = ideology_traditionalist
+			traits = {
+				direct
+				reckless
+				meticulous
+			}
+		}
+	}
+}

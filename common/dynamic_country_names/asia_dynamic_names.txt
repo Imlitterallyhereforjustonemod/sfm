@@ -1,0 +1,63 @@
+CHI = { #China
+	dynamic_country_name = {
+		name = dyn_c_chi_qing
+		adjective = dyn_c_chi_qing_adj
+		
+		is_main_tag_only = yes
+		priority = 1
+		
+		trigger = {
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+}
+
+KOR = { #Korea
+	dynamic_country_name = {
+		name = dyn_c_kor_joseon
+		adjective = dyn_c_kor_joseon_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+}
+
+PAN = { #Sikh Empire
+	dynamic_country_name = {
+		name = dyn_c_pan_sikh
+		adjective = dyn_c_pan_sikh_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = { 
+				has_government_type = gov_maharaja
+			}
+		}
+	}
+}
+
+TUR = { #Turkey
+	dynamic_country_name = {
+		name = dyn_c_tur_ottoman
+		adjective = dyn_c_tur_ottoman_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = { 
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+}

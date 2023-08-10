@@ -1,0 +1,353 @@
+﻿CHARACTERS = {
+	c:RUS = {
+		create_character = {
+			# Tsar Nicholas I of Russia
+			first_name = Nikolai
+			last_name = Romanov
+			historical = yes
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			ruler = yes
+			birth_date = 1796.7.6
+			dna = dna_tsar_nicolas_01
+			traits = {
+				arrogant pious 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+		
+		create_character = {
+			# Alexander II of Russia
+			first_name = Aleksandr
+			last_name = Romanov
+			historical = yes
+			heir = yes
+			birth_date = 1818.4.26
+			dna = dna_tsar_alexander_02
+			interest_group = ig_landowners
+			ideology = ideology_market_liberal
+			traits = {
+				meticulous romantic 
+			}
+		}
+
+		create_character = {
+			# Alexander von Benckendorff, general and armed forces ig leader
+			first_name = Aleksandr
+			last_name = von_Benckendorff
+			historical = yes
+			birth_date = 1781.7.4
+			culture = cu:north_german
+			religion = protestant
+			ig_leader = yes
+			is_general = yes
+			interest_group = ig_armed_forces
+			ideology = ideology_royalist
+			traits = {
+				imperious senile 
+			}
+		}
+
+		#create_character = {
+		#	# Count Ivan Paskevich, later "Serene Prince of Warsaw", which should give you some idea of his character.
+		#	first_name = Ivan
+		#	last_name = Paskevich
+		#	age = 54
+		#	ig_leader = yes
+		#	interest_group = ig_armed_forces
+		#	traits = {
+		#		wrathful
+		#	}
+		#}
+		
+		# also worth considering Pyotr Chaadayev, leading Westernizer intellectual in the 1830s.
+		# also worth considering Vasily Zhukovsky
+
+		create_character = {
+			# Sergey Uvarov, the creator of the Tsarist doctrine of Orthodoxy, Autocracy, and Nationality
+			first_name = Sergei
+			last_name = Uvarov
+			historical = yes
+			birth_date = 1786.8.25
+			ig_leader = yes
+			interest_group = ig_intelligentsia
+			ideology = ideology_traditionalist
+			dna_rus_sergey_uvarov
+			traits = {
+				meticulous 
+			}
+		}
+
+		create_character = {
+			# St. Philaret, Metropolitan of Moscow, born as Vasily Drozdov
+			first_name = Filaret
+			last_name = Drozdov
+			historical = yes
+			birth_date = 1782.12.26
+			ig_leader = yes
+			interest_group = ig_devout
+			ideology = ideology_reformer
+			dna = dna_rus_philaret_drozdov
+			traits = {
+				charismatic brave direct 
+			}
+		}
+
+		create_character = {
+			# Count Aleksey Alekseyevich Bobrinsky, patron of the first Russian railway and sugar beet innovator.
+			first_name = Alexei
+			last_name = Bobrinsky
+			historical = yes
+			birth_date = 1800.1.17 # Gregorian Calendar
+			ig_leader = yes
+			interest_group = ig_industrialists
+			ideology = ideology_market_liberal
+			dna = dna_rus_alexei_bobrinsky
+			traits = {
+				innovative meticulous 
+			}
+		}
+		
+		create_character = { # General
+			is_general = yes
+			first_name = Mikhail
+			last_name = Vorontsov
+			historical = yes
+			birth_date = 1782.5.30 # Gregorian Calendar
+			interest_group = ig_landowners
+			ideology = ideology_moderate
+			hq = region_russia
+			commander_rank = commander_rank_5
+			traits = {
+				direct
+				forest_commander
+				
+			}
+
+		}
+		
+		create_character = { # General
+			is_general = yes
+			first_name = Aleksandr
+			last_name = Chernyshyov
+			historical = yes
+			birth_date = 1786.1.10 # Gregorian Calendar
+			hq = region_dnieper
+			commander_rank = commander_rank_5
+			interest_group = ig_armed_forces
+			ideology = ideology_moderate
+			traits = {
+				brave
+				
+			}
+		
+		}
+		
+		# create_character = { # Sea
+			# name = "Prince Menshikov"
+			# age = 49
+			# traits = {
+			# 	lackluster
+			# 	clueless
+			# }
+		# }
+		
+		create_character = {
+			is_general = yes
+			first_name = Ivan
+			last_name = Paskevich
+			historical = yes
+			age = 54
+			hq = region_poland
+			commander_rank = commander_rank_2
+			ig = ig_landowners
+			ideology = ideology_moderate
+			traits = {
+				brave
+				
+			}
+		}
+		
+		create_character = {
+			is_general = yes
+			first_name = Matvey
+			last_name = Khrapovitsky
+			historical = yes
+			age = 52
+			hq = region_caucasus
+			commander_rank = commander_rank_2
+			ig = ig_landowners
+			ideology = ideology_moderate
+			traits = {
+				mountain_commander
+				
+			}
+		}
+		
+		create_character = { # Admiral
+			is_admiral = yes
+			first_name = Mikhail 
+			last_name = Lazarev
+			historical = yes
+			birth_date = 1788.11.14 # Gregorian Calendar
+			hq = region_russia
+			ig = ig_armed_forces
+			ideology = ideology_moderate
+			traits = {
+			 	explorer
+			 	experienced_naval_commander
+				
+			 }
+		 }
+		
+		create_character = {
+			is_general = yes
+			first_name = Nikolay
+			last_name = Muravyov_Karsky
+			historical = yes
+			age = 49
+			hq = region_central_asia
+			ig = ig_landowners
+			ideology = ideology_moderate
+			commander_rank = commander_rank_2
+			traits = {
+				persistent
+				
+			}
+		}
+		
+	#	create_character = {
+	#		is_general = yes
+	#		first_name = Pyotr
+	#		last_name = Volkonsky
+	#		age = 60
+	#		traits = {
+	#	#		intelligent
+	#	#		elderly
+	#		}
+	#
+	#	}
+		
+		create_character = {
+			is_general = yes
+			first_name = Pavel
+			last_name = Grabbe
+			historical = yes
+			age = 47
+			hq = region_west_siberia
+			ig = ig_landowners
+			ideology = ideology_radical
+			culture = cu:finnish
+			religion = protestant
+			traits = {
+				ambitious
+				
+			}
+		}
+		
+		create_character = {
+			is_general = yes
+			first_name = Mikhail
+			last_name = Gorkachov
+			historical = yes
+			birth_date = 1793.28.1
+			hq = region_poland
+			ig = ig_landowners
+			rank = commander_rank_2
+			ideology = ideology_moderate
+			traits = {
+				expert_artillery_commander
+				basic_political_operator
+				
+			}
+		}
+		
+	#	create_character = {
+	#		is_general = yes
+	#		first_name = Vasily
+	#		last_name = Bebutov
+	#		age = 45
+	#		traits = {
+	#	#		stout
+	#	#		generals_aide
+	#		}
+	#
+	#	}
+		
+		#create_character = { #Was in Vanilla, but I found no proof of him existing
+		#	is_general = yes
+		#	first_name = Friedrich
+		#	last_name = von_Berg
+		#	hq = region_baltic
+		#	age = 42
+		#	traits = {
+		#		meticulous
+		#		surveyor
+		#	}
+		#}
+		
+		# create_character = { # Sea
+			# name = "Ferdinand Wrangel"
+			# portrait = "gfx/portraits/Default_Portrait.dds"
+			# age = 39
+			# traits = {
+			# 	active_trait
+			# 	cartographer
+			# }
+			# # prestige = 0.0
+		# }
+
+		create_character = { # RUS, Admiral
+			is_admiral = yes
+			first_name = Fabian_Gottlieb
+			last_name = von_Bellingshausen
+			culture = cu:north_german
+			religion = protestant
+			interest_group = ig_landowners
+			ideology = ideology_moderate
+			birth_date = 1778.1.25
+			hq = region_baltic
+			commander_rank = commander_rank_2
+			traits = {
+				explorer
+				basic_naval_commander
+				popular_commander
+				
+			}
+		}
+		
+		create_character = { # RUS, Admiral
+			is_admiral = yes
+			first_name = Vasily
+			last_name = Zavoyko
+			historical = yes
+			culture = cu:ukrainian
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			birth_date = 1809.7.15
+			hq = region_dnieper
+			commander_rank = commander_rank_3
+			traits = {
+				explorer
+				brave
+			}
+		}
+		create_character = { # RUS, Admiral
+			is_admiral = yes
+			first_name = Pyotr
+			last_name = Ricord
+			historical = yes
+			interest_group = ig_armed_forces
+			ideology = ideology_reformer
+			birth_date = 1776.2.9
+			hq = region_east_siberia
+			traits = {
+				basic_naval_commander
+				experienced_diplomat
+				tactful
+			}
+		}
+	}
+}

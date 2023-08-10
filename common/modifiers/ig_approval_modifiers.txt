@@ -1,0 +1,4 @@
+military_crackdown = { #should only be given to armed forces and maybe petite bourgeiouse
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	interest_group_approval_add = 2
+}

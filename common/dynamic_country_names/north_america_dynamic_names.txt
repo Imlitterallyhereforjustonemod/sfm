@@ -1,0 +1,76 @@
+ONT = { # Ontario
+	dynamic_country_name = {
+		name = dyn_c_ont_upper_canada
+		adjective = dyn_c_ont_upper_canada_adj
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:GBR
+			c:GBR = {
+				has_diplomatic_pact = {
+					who = c:ONT
+					type = puppet
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+
+QUE = { # Quebec
+	dynamic_country_name = {
+		name = dyn_c_que_lower_canada
+		adjective = dyn_c_que_lower_canada_adj
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:GBR
+			c:GBR = {
+				has_diplomatic_pact = {
+					who = c:QUE
+					type = puppet
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+
+SEQ = { # Oklahoma
+	dynamic_country_name = {
+		name = dyn_c_seq_indian_territory
+		adjective = dyn_c_seq_indian_territory_adj
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				country_has_voting_franchise = no
+				has_law = law_type:law_presidential_republic
+			}
+		}
+	}
+}
+
+USA = { # United States
+	dynamic_country_name = {
+		name = dyn_c_usa_united_states
+
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				country_has_voting_franchise = yes
+				OR = {
+					has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic
+				}
+			}
+		}
+	}
+}

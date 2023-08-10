@@ -1,0 +1,542 @@
+DEFAULT = {
+	dynamic_country_name = { ##Kingdom
+		name = dcn_default_kingdom
+		
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				OR = {
+					has_government_type = gov_kongolese_kingdom
+					has_government_type = gov_hawaiian_monarchy
+					has_government_type = gov_hawaiian_monarchy_recognised
+					has_government_type = gov_sikkimese_monarchy
+					has_government_type = gov_bhutanese_monarchy
+					has_government_type = gov_constitutional_monarchy
+					has_government_type = gov_absolute_kingdom
+					has_government_type = gov_feudal_kingdom
+					has_government_type = gov_kingdom
+					has_government_type = gov_constitutional_kingdom
+					has_government_type = gov_balinese_monarchy
+					has_government_type = gov_bhutanese_dual_system_temporal
+					has_government_type = gov_fra_constitutional_monarchy_orleanist
+					has_government_type = gov_fra_constitutional_monarchy_legitimist
+					has_government_type = gov_fra_absolute_monarchy_orleanist
+					has_government_type = gov_fra_absolute_monarchy_legitimist
+					has_government_type = gov_absolute_principality
+					has_government_type = gov_principality
+					has_government_type = gov_constitutional_principality
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { ##Shogunate
+		name = dcn_default_shogunate
+		
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				has_government_type = gov_shogunate
+			}
+		}
+	}
+	
+	dynamic_country_name = { ##State
+		name = dcn_default_state
+		
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				OR = {
+					has_government_type = gov_princely_state_hindu
+					has_government_type = gov_princely_state_muslim
+					has_government_type = gov_warlord_state
+					has_government_type = gov_fascist_state
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { ##Tsardom
+		name = dcn_default_tsardom
+		
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				has_government_type = gov_tsardom
+			}
+		}
+	}
+	
+	dynamic_country_name = { ##Sultanate
+		name = dcn_default_sultanate
+		
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				has_government_type = gov_sultanate
+			}
+		}
+	}
+	
+	dynamic_country_name = { ##Hakimate
+		name = dcn_default_hakimate
+		
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				has_government_type = gov_hakimate
+			}
+		}
+	}
+	
+	dynamic_country_name = { ##Sheikhdom
+		name = dcn_default_sheikhdom
+		
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				has_government_type = gov_sheikhdom
+			}
+		}
+	}
+	
+	dynamic_country_name = { ##Sunanate
+		name = dcn_default_sunanate
+		
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				has_government_type = gov_sunanate
+			}
+		}
+	}
+	
+	dynamic_country_name = { ##Caliphate
+		name = dcn_default_caliphate
+		
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				has_government_type = gov_caliphate
+			}
+		}
+	}
+	
+	dynamic_country_name = { ##Khedivate
+		name = dcn_default_khedivate
+		
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				has_government_type = gov_khedive
+			}
+		}
+	}
+	
+	dynamic_country_name = { ##Vilayet
+		name = dcn_default_vilayet
+		
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				has_government_type = gov_vilayet
+			}
+		}
+	}
+	
+	dynamic_country_name = { ##Shahdom
+		name = dcn_default_shahdom
+		
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				has_government_type = gov_shah
+			}
+		}
+	}
+	
+	dynamic_country_name = { ##Principality
+		name = dcn_default_principality
+		
+		priority = 1
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				OR = {
+					has_government_type = gov_prince
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { ##Beylik
+		name = dcn_default_beylik
+		
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				has_government_type = gov_bey
+			}
+		}
+	}
+	
+	dynamic_country_name = { ##Sharifate
+		name = dcn_default_sharifate
+		
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				has_government_type = gov_sharif
+			}
+		}
+	}
+	
+	dynamic_country_name = { ##Empire
+		name = dcn_default_empire
+		
+		priority = 1
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				OR = {
+					has_government_type = gov_kaiser
+					has_government_type = gov_absolute_empire
+					has_government_type = gov_feudal_empire
+					has_government_type = gov_empire
+					has_government_type = gov_constitutional_empire
+					
+					AND = {
+						has_law = law_type:law_monarchy
+						OR = {
+							c:RUS ?= this
+							c:GZA ?= this
+							c:ZUL ?= this
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { ##Khanate
+		name = dcn_default_khanate
+		
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				has_government_type = gov_khanate
+			}
+		}
+	}
+	
+	dynamic_country_name = { ##Zhuz
+		name = dcn_default_zhuz
+		
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				has_government_type = gov_zhuz
+			}
+		}
+	}
+	
+	dynamic_country_name = { ##Emirate
+		name = dcn_default_emirate
+		
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				has_government_type = gov_absolute_principality_muslim
+			}
+		}
+	}
+	
+	dynamic_country_name = { ##County
+		name = dcn_default_county
+		
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				OR = {
+					has_government_type = gov_constitutional_county
+					has_government_type = gov_absolute_county
+					has_government_type = gov_county
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { ##Duchy
+		name = dcn_default_duchy
+		
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				OR = {
+					has_government_type = gov_absolute_duchy
+					has_government_type = gov_constitutional_duchy
+					has_government_type = gov_duchy	
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { ##Grand Duchy
+		name = dcn_default_grand_duchy
+		
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				OR = {
+					has_government_type = gov_absolute_grand_duchy
+					has_government_type = gov_grand_duchy
+					has_government_type = gov_constitutional_grand_duchy
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { ##Grand Principality
+		name = dcn_default_grand_principality
+		
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				OR = {
+					has_government_type = gov_absolute_grand_principality
+					has_government_type = gov_grand_principality
+					has_government_type = gov_constitutional_grand_principality
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { ##Republic
+		name = dcn_default_republic
+		
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				OR = {
+					has_government_type = gov_banana_republic
+					has_government_type = gov_presidential_dictatorship
+					has_government_type = gov_military_dictatorship
+					has_government_type = gov_junta
+					has_government_type = gov_presidential_oligarchy
+					has_government_type = gov_presidential_democracy
+					has_government_type = gov_parliamentary_dictatorship
+					has_government_type = gov_parliamentary_oligarchy
+					has_government_type = gov_parliamentary_democracy
+					has_government_type = gov_french_2nd_republic_presidential
+					has_government_type = gov_french_2nd_republic_presidential_dictator
+					has_government_type = gov_french_3rd_republic_presidential
+					has_government_type = gov_french_3rd_republic_presidential_dictator
+					has_government_type = gov_french_4th_republic_presidential
+					has_government_type = gov_french_4th_republic_presidential_dictator
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { ##Free City
+		name = dcn_default_free_city
+		
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				has_government_type = gov_free_city
+			}
+		}
+	}
+	
+	dynamic_country_name = { ##Company
+		name = dcn_default_company
+		
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				has_government_type = gov_chartered_company
+			}
+		}
+	}
+	
+	dynamic_country_name = { ##Colony
+		name = dcn_default_colony
+		
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				OR = {
+					has_government_type = gov_colonial_administration
+					has_government_type = gov_crown_colony
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { ##Prince-Bishopric
+		name = dcn_default_prince_bishopric
+		
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				OR = {
+					has_government_type = gov_prince_bishopric
+					has_government_type = gov_catholic_theocracy
+					has_government_type = gov_protestant_theocracy
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { ##Imamate
+		name = dcn_default_imamate
+		
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				OR = {
+					has_government_type = gov_zaidi_imamate
+					has_government_type = gov_sunni_theocracy
+					has_government_type = gov_shiite_theocracy
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { ##Patriarchate
+		name = dcn_default_patriarchate
+		
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				OR = {
+					has_government_type = gov_oriental_orthodox_theocracy
+					has_government_type = gov_jewish_theocracy
+					has_government_type = gov_theocratic_oligarchy
+					has_government_type = gov_theocracy
+					has_government_type = gov_theocratic_democracy
+					has_government_type = gov_theocratic_dictatorship
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { ##SSR
+		name = dcn_default_ssr
+		
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				OR = {
+					has_government_type = gov_soviet_dictatorship
+					has_government_type = gov_soviet_republic
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { ##People's Republic
+		name = dcn_default_peoples_republic
+		
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				OR = {
+					has_government_type = gov_council_dictatorship
+					has_government_type = gov_council_republic
+					has_government_type = gov_anarchist_commune
+				}
+			}
+		}
+	}
+	
+	dynamic_country_name = { ##Papacy
+		name = dcn_default_papacy
+		
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				has_government_type = gov_papacy
+			}
+		}
+	}
+	
+	dynamic_country_name = { ##Confederation
+		name = dcn_default_confederation
+		
+		priority = 0
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				has_government_type = gov_circassian_federation
+			}
+		}
+	}
+}

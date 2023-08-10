@@ -1,0 +1,25 @@
+
+#General
+afg_general_mohammed = {
+	first_name = Yar
+	last_name = Mohammed
+	historical = yes
+	culture = cu:pashtun
+	female = no
+	religion = sunni
+	commander_rank = default
+	interest_group = ig_landowners
+	birth_date = 1800.1.1 # Uncertain birth date
+	traits = {
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:AFG
+			this = c:AFG
+		}
+		role = general
+		earliest_usage_date = 1836.1.1
+		latest_usage_date = 1865.1.1	
+		chance = 75
+	}
+}
