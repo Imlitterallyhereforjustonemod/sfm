@@ -23,3 +23,4 @@ afg_general_mohammed = {
 		chance = 75
 	}
 }
+ # i fucking love horse cock
